@@ -4,10 +4,56 @@ body {
 }
 
 /*Takuya*/
+/* using nav */
+header {
+    margin: 50px 150px 0 150px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    height: 114px;
+}
 
+/* nav {
+    width: 50%;
+}
 
+.menu {
+    border: 1px solid lightgray;
+    display: flex;
+    border-collapse: collapse;
+} */
 
+li {
+    list-style: none;
+    padding: 0 74.5px;
+}
 
+/* .homeimg {
+    padding: 0 30px;
+    width: auto;
+    height: 120px;
+} */
+
+nav {
+    margin: auto 0 auto 0;
+}
+
+.headerleft {
+    display: flex;
+}
+
+.menu {
+    font-size: 1.25rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
 
 /*ORE*/
 
