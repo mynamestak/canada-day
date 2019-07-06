@@ -1,4 +1,8 @@
 
+body {
+    font-family: 'B612', sans-serif;
+}
+
 /*Takuya*/
 
 
@@ -6,3 +10,20 @@
 
 
 /*ORE*/
+
+.intro h1 {
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.intro p {
+    padding: 0 150px 0 150px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.intro img {
+    max-width: 100%;
+}
