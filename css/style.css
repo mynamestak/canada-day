@@ -83,3 +83,48 @@ a:visited {
 .intro img {
     max-width: 100%;
 }
+
+/* Takuya 2nd part */
+.ourvalues h1 {
+    margin: 50px 150px 0 150px;
+    font-size: 2.50rem;
+}
+
+.split2::before {
+    content:"";
+    display: block;
+    left: 50%;
+    top: 0;
+    position: absolute;
+    bottom: 0;
+    border-left: 1px solid red;
+}
+
+.split2 {
+    padding: 50px 150px 0 150px;
+    display: flex;
+    margin:  auto;
+}
+
+
+.split4 {
+    display: flex;
+;}
+
+.landscapeimg img{
+    max-width: 100%;
+    padding: 20% 0;
+} 
+
+.split4 div {
+    padding-right: 20px;
+    width: 250px;
+}
+
+.split4 h3 {
+    font-size: 1.25rem;
+}
+
+.split4 .number {
+    color: lightgray;
+}
