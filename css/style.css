@@ -85,11 +85,6 @@ a:visited {
 }
 
 /* Takuya 2nd part */
-.ourvalues h1 {
-    margin: 50px 150px 0 150px;
-    font-size: 2.50rem;
-}
-
 .split2::before {
     content:"";
     display: block;
@@ -100,10 +95,25 @@ a:visited {
     border-left: 1px solid red;
 }
 
+.split2::after {
+    content:"";
+    display: block;
+    left: 25%;
+    top: 0;
+    position: absolute;
+    bottom: 0;
+    border-left: 1px solid red;
+}
+
 .split2 {
-    padding: 50px 150px 0 150px;
+    position: relative;
+}
+
+.flex {
+    margin: 20px;
     display: flex;
     margin:  auto;
+    position:  relative;
 }
 
 
@@ -111,14 +121,25 @@ a:visited {
     display: flex;
 ;}
 
-.landscapeimg img{
+.right, .left {
+    width: 50%;
+}
+
+.landscapeimg {
+    padding: 10px;
+
+}
+
+.landscapeimg img {
     max-width: 100%;
-    padding: 20% 0;
-} 
+}
+
+
+}
 
 .split4 div {
-    padding-right: 20px;
-    width: 250px;
+    padding: 10px;
+    width: 50%;
 }
 
 .split4 h3 {
