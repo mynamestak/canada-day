@@ -27,7 +27,7 @@ img.homeimg {
     border-collapse: collapse;
 } */
 
-li {
+.headerleft li {
     list-style: none;
     padding: 16px;
     text-align: center;
@@ -107,13 +107,13 @@ a:visited {
 
 .split2 {
     position: relative;
+    margin: 0 5%;
 }
 
 .flex {
     margin: 20px;
     display: flex;
     margin:  auto;
-    position:  relative;
 }
 
 
@@ -126,16 +126,18 @@ a:visited {
 }
 
 .landscapeimg {
-    padding: 10px;
-
+    position: relative;
 }
 
 .landscapeimg img {
-    max-width: 100%;
+    max-width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+    
 }
 
-
-}
 
 .split4 div {
     padding: 10px;
@@ -149,3 +151,115 @@ a:visited {
 .split4 .number {
     color: lightgray;
 }
+
+/* takuya 3rd part */
+/* outro and mail form */
+
+.split {
+    display: flex;
+    margin-top: 40px;
+}
+
+.split .outroleft {
+    background: lightgray;
+    width: 50%;
+    height: 230px;
+    position: relative;
+
+}
+
+.outroleft .outrocontext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+.split .outroright {
+    background: lightblue;
+    width: 50%;
+    height: 230px;
+    position: relative;
+}
+
+.outroright .outrocontext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    -webkit- transform: translateY(-50%) translateX(-50%);
+}
+
+.outrocontext{
+    width: 80%;
+}
+
+.outrocontext .mail {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input[type='text'] {
+    background-color: transparent;
+    border: none;
+    width: 60%;
+    font-size: 1.25rem;
+}
+
+input[type='text']:focus {
+    outline: none;
+}
+
+input[type='submit'] {
+    background: transparent;
+    outline: 1px solid black;
+    padding: 10px 20px;
+}
+
+input[type='submit']:hover {
+    text-decoration: underline;
+}
+
+
+
+/* footer */
+footer {
+    background: white;
+    margin-top: 30px;
+}
+
+
+
+footer .top {
+    display: flex;
+    margin: 0 5%;
+}
+
+.top h3 {
+    width: 25%;
+}
+
+hr {
+    width: 90%;
+}
+
+.footer .footermenu {
+    display: flex;
+    margin: 0 5%;
+}
+
+.footermenu div {
+    width: 25%;
+    list-style: none;
+}
+
+.footermenu div li {
+    margin: 5% 5% 5% 0;
+}
+
+.footermenu div span {
+    padding: 5% 5% 5% 0;
+}
+
