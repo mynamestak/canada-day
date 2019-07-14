@@ -39,8 +39,8 @@
 <div class="split2">
     <div>
         <h1>Our Values</h1>
-    </div>    
-    <div class="flex">       
+    </div>
+    <div class="flex">
         <div class="left">
             <div class="split4">
                 <div>
@@ -86,10 +86,10 @@
     </div>
     <div class="outroright">
         <div class="outrocontext">
-            <h3>Sign up and get 10% off your first purchase.</h3>
+            <h3 id="highlight">Sign up and get 10% off your first purchase.</h3>
             <div class="mail">
                 <input type="text" placeholder="Your email address..." name="email">
-                <input type="submit" value="JOIN" class="button">
+                <input type="submit" value="JOIN" class="button" onClick="sendEmail()">
             </div>
         </div>
     </div>
@@ -128,5 +128,12 @@
         </div>
     </div>
 </footer>
+
+<script>
+    function sendEmail() {
+        let h3 = document.getElementById('highlight')
+        h3.style.color = "blue";
+    }
+</script>
 </body>
 </html>
